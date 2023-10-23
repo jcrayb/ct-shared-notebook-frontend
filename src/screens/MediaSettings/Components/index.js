@@ -1,0 +1,1 @@
+export { MSPHeaderTabTitle } from './MSPHeaderTabTitle';

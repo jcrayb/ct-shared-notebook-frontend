@@ -1,0 +1,177 @@
+/**
+ * Stylesheet for Admin Page
+ */
+ 
+.admin-bg {
+  width: 100%;
+  padding: 1em 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+}
+
+.admin-bg .filter input {
+  border-radius: 5px;
+  width: 20em;
+  height: 3em;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: #eeeeee;
+  margin-right: 1em;
+  padding: 1em;
+}
+.admin-bg .filter input:focus {
+  background-color: #f5f5f5;
+  border: 1px solid #14a8a1;
+}
+
+.admin-bg .ui.segment, .ui.segments .segment {
+  background: none;
+  box-shadow: none;
+  border: none;
+  padding: 1em 0;
+}
+.admin-bg .ui.menu.fluid, .admin-bg .ui.vertical.menu.fluid {
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.admin-bg .ui.black.message {
+  background: none !important;
+  color: #285856;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.admin-bg .ui.vertical.menu .active.item, .admin-bg .ui.vertical.menu .active.item:hover {
+  background: #458885;
+  color: white;
+  border-radius: 0 !important;
+}
+.admin-bg .ui.dimmer {
+  z-index: 1111 !important;
+}
+.ap-tab {
+  width: 100%;
+}
+.ap-list-item {
+  padding-left: 1rem;
+}
+
+.ap-form {
+  padding-left: 1rem;
+  width: 100%;
+}
+
+.ap-id {
+  color: rgb(4, 91, 98);
+}
+
+.ap-buttons {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100%;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+.ap-buttons .ui.button {
+  margin: 0 !important;
+}
+
+/* More */
+
+.ap-more h2 {
+  color: #28817d;
+}
+.ap-more-section {
+  background: #f0f0f0;
+  padding: 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.ap-more-section label {
+  font-weight: bold;
+}
+
+.ap-more .download-logs button {
+  margin-left: 3em !important;
+}
+
+/* General */
+.ap-listitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.admin-bg .ui.message {
+  background: none !important;
+}
+
+.ap-listitem .ap-iteminfo {
+  width: 100%;
+}
+
+.ui.dimmer {
+  z-index: 2200 !important;
+}
+
+
+
+/* Calendar */
+.DateRangePickerInput {
+  background: none !important;
+}
+.CalendarDay__selected {
+  background: #14a8a1 !important;
+  color: white;
+  border: #14a8a1 solid 1px !important
+}
+.CalendarDay__selected_span {
+  background: #70b9ae !important; 
+  color: white;
+  border: none !important;
+}
+
+
+.ui .modal {
+  overflow: visible;
+  box-shadow: none !important;
+}
+.ui.modal>.header, .ui.modal>.actions {
+  background: #fcfcfc !important;
+  border: none !important;
+}
+.solid-dimmer {
+  transition: none !important;
+  background-color: #fcfcfc !important;
+}
+
+.general-modal {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative !important;
+  height: max-content;
+  display: flex;
+  flex-direction: column;}
+  .general-modal .gm-header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    background: #eeeeee !important; 
+    color: #217272 !important;}
+  .general-modal .gm-content {
+    background: #fcfcfc !important;}
+  .general-modal .gm-action {
+    background: #f0f0f0 !important;}
+
+  /* For Delete Modalc*/   
+  .general-modal .delete-target {
+    color: rgb(26, 110, 110);
+    text-decoration: underline;
+  }
+
+  .general-modal .positive {
+    background: #449999 !important;
+  }
